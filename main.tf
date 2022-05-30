@@ -1,8 +1,8 @@
 data "template_file" "appconfig" {
   template = file("${path.module}/template/appconfig.json")
   vars = {
-    remoteServiceBaseUrl = "https://abcd1357.com"
-    appBaseUrl           = "https://efgh2468.com"
+    remoteServiceBaseUrl = "https://abcd13579.com"
+    appBaseUrl           = "https://efgh24680.com"
   }
 }
 
